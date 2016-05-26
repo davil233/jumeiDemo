@@ -21,6 +21,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[UIViewController alloc]init];
     [self.window makeKeyAndVisible];
+    NSLog(@"......................");
     return YES;
 }
 
